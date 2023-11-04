@@ -1,0 +1,46 @@
+.container{
+  width: 855px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  
+  .logo{
+    font-size: 35px;
+    color:white;
+  }
+
+  .Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  height:200px;
+  background-color:green;
+  box-sizing:border-box;  
+  padding:50px;
+  }
+    .icons{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .iconstyle{
+      padding:10px;
+    }
+  
+    .copyrightText{   
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .text{
+      font-family: Helvetica Now Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-left: 10px;
+    }
